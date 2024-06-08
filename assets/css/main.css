@@ -53,6 +53,34 @@
     animation: 1s ease-out 0s 1 slideInFromBottom-Bronze;
 }
 
+/* Eh it didn't look that good
+.spinRight{
+    animation: 1s ease-out 0s 1 spinRight;
+}
+.spinLeft{
+    animation: 1s ease-out 0s 1 spinLeft;
+}
+
+@keyframes spinRight {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinLeft {
+    0% {
+        transform: scale(-1, 1);
+        transform: rotate(450deg);
+    }
+    100% {
+        transform: scale(-1, 1);
+        transform: rotate(-90deg);
+    }
+}
+*/
+
 @keyframes slideInFromBottom-Silver {
     0% {
         opacity: 0.1;
